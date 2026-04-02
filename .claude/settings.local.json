@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dbt run:*)",
+      "Bash(dbt test:*)",
+      "Bash(mv mt2_dbt transform)",
+      "Bash(rm -rf transform/analyses transform/macros transform/snapshots transform/tests)",
+      "Bash(rm -rf 'c:\\\\Machine Learning Projects\\\\Monster Train\\\\transform')",
+      "Bash(rm 'c:\\\\Machine Learning Projects\\\\Monster Train\\\\data\\\\mt2.duckdb')",
+      "Read(//c/Users/chand/.dbt/**)",
+      "WebSearch",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:marketplace.visualstudio.com)",
+      "Bash(taskkill /PID 7740 /F)",
+      "Bash(powershell -Command \"Stop-Process -Id 7740 -Force\")",
+      "Bash(powershell -Command \"Get-Process | Where-Object {$_Name -like ''*Code*'' -or $_Name -like ''*python*'' -or $_Name -like ''*dbt*''} | Select-Object Id, Name, MainWindowTitle\")",
+      "Bash(powershell -Command \"& {Get-Process | Where-Object { $_Name -match ''Code|python|dbt'' } | Select-Object Id, Name | Format-Table -AutoSize}\")",
+      "Bash(cmd /c \"powershell -Command \"\"Get-Process Code | Select-Object Id, Name | Format-Table -AutoSize\"\"\")",
+      "Bash(cmd /c \"powershell -Command \"\"Get-Process | Format-Table Id, Name -AutoSize\"\" 2>&1 | findstr /i \"\"code python dbt\"\"\")",
+      "Bash(where dbt:*)",
+      "Bash(where python:*)",
+      "Bash(pip install:*)"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\chand\\.dbt",
+      "c:\\Machine Learning Projects\\Monster Train\\scripts"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+
+    
+    
+    truncate table "mt2"."main"."card_attributes";
+    -- dbt seed --
+    
+          COPY "mt2"."main"."card_attributes" FROM 'C:\Machine Learning Projects\Monster Train\transform\seeds\card_attributes.csv' (FORMAT CSV, HEADER TRUE, DELIMITER ',')
+        
+
+;
+  

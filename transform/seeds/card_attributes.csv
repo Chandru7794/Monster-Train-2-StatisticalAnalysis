@@ -1,0 +1,121 @@
+card_name,clan,card_type,rarity,cost,consume,banner,ability,attack,health,size
+Just Cause,Banished,Spell,Starter,1,No,,,,,
+Inspire,Banished,Spell,Starter,1,No,,,,,
+Upbeat Warbler,Banished,Unit,Common,1,,No,No,2,2,1
+Lead Songbird,Banished,Unit,Uncommon,1,,No,No,2,2,1
+Punk Shredder,Banished,Unit,Uncommon,1,,No,No,2,2,1
+Avenger,Banished,Unit,Uncommon,2,,Yes,No,20,40,2
+Battle Dancer,Banished,Unit,Uncommon,1,,Yes,No,7,14,2
+Demonic Fledgling,Banished,Unit,Uncommon,1,,Yes,No,10,10,2
+Firebrand,Banished,Unit,Uncommon,2,,Yes,No,15,30,2
+Steadfast Crusader,Banished,Unit,Uncommon,1,,Yes,Yes,5,30,2
+Swordmaiden,Banished,Unit,Uncommon,1,,Yes,No,10,20,2
+Deathmetal Hymnist,Banished,Unit,Rare,4,,No,No,2,2,1
+Death's Dancer,Banished,Unit,Rare,1,,Yes,No,7,14,2
+Divine Dancer,Banished,Unit,Rare,1,,Yes,No,7,14,2
+Hostguard,Banished,Unit,Rare,3,,Yes,Yes,25,60,3
+Challenge,Banished,Spell,Common,1,No,,,,,
+Cleave,Banished,Spell,Common,2,No,,,,,
+Divinity,Banished,Spell,Common,3,No,,,,,
+Rising Rage,Banished,Spell,Common,1,No,,,,,
+Selfless Sacrifice,Banished,Spell,Common,2,Yes,,,,,
+Begone,Banished,Spell,Uncommon,2,No,,,,,
+Benediction,Banished,Spell,Uncommon,3,No,,,,,
+Deadly Plunge,Banished,Spell,Uncommon,2,Yes,,,,,
+Demonize,Banished,Spell,Uncommon,3,No,,,,,
+Heroic Dive,Banished,Spell,Uncommon,1,Yes,,,,,
+Liquid Courage,Banished,Spell,Uncommon,1,Yes,,,,,
+Eagleheart,Banished,Spell,Rare,2,Yes,,,,,
+Heavensward,Banished,Spell,Rare,2,Yes,,,,,
+Sanctuary,Banished,Spell,Rare,3,Yes,,,,,
+Spike of the Banished,Banished,Spell,Rare,99,Yes,,,,,
+Tome of the Lost Path,Banished,Spell,Rare,1,Yes,,,,,
+Wynghs Radiance,Banished,Spell,Rare,99,No,,,,,
+Penitents Bloodsuit,Banished,Equipment,Common,0,,,,,,
+Windblade,Banished,Equipment,Common,1,,,,,,
+Everlasting Light,Banished,Equipment,Uncommon,1,,,,3,,
+Penitents Deathsuit,Banished,Equipment,Uncommon,1,,,,,,
+Shield of Wyngh,Banished,Equipment,Uncommon,2,,,,,10,
+Cursed Twinblade,Banished,Equipment,Rare,2,,,,6,,
+Imprisoned Zephyr,Banished,Room,Uncommon,0,,,,,,
+Bloodsoaked Arena,Banished,Room,Rare,1,,,,,,
+Firestarter,Pyreborne,Spell,Starter,1,,,,,,
+Bloated Whelp,Pyreborne,Unit,Starter,1,,No,Yes,4,1,1
+Snotty Whelp,Pyreborne,Unit,Common,1,,No,Yes,4,1,1
+Stuck Up Whelp,Pyreborne,Unit,Uncommon,1,,No,Yes,4,1,1
+Wealthy Whelp,Pyreborne,Unit,Uncommon,1,,No,Yes,4,1,1
+Gildmonger,Pyreborne,Unit,Uncommon,1,,Yes,No,10,30,2
+Hot Head,Pyreborne,Unit,Uncommon,2,,Yes,Yes,5,20,2
+Greed Dragon,Pyreborne,Unit,Uncommon,2,,Yes,No,20,35,3
+Magma Cultist,Pyreborne,Unit,Uncommon,2,,Yes,No,5,10,1
+Magma Mauler,Pyreborne Unit,Unit,Uncommon,1,,Yes,No,10,25,2
+Miser,Pyreborne,Unit,Uncommon,1,,Yes,No,8,8,1
+Goldtooth,Pyreborne,Unit,Rare,2,,Yes,No,15,30,2
+Pyreblooded,Pyreborne,Unit,Rare,1,,Yes,Yes,5,10,1
+Zealot,Pyreborne,Unit,Rare,3,,Yes,No,10,20,2
+Flicker,Pyreborne,Spell,Common,0,No,,,,,
+Lava Flow,Pyreborne,Spell,Common,0,Yes,,,,,
+Pyrecask,Pyreborne,Spell,Common,1,Yes,,,,,
+Golden Touch,Pyreborne,Spell,Common,2,No,,,,,
+Pyreball,Pyreborne,Spell,Common,2,No,,,,,
+Alchemy,Pyreborne,Spell,Common,3,Yes,,,,,
+Pyreborne Brainspike,Pyreborne,Spell,Uncommon,99,Yes,,,,,
+Fanning The Flame,Pyreborne,Spell,Uncommon,1,No,,,,,
+Greed,Pyreborne,Spell,Uncommon,1,No,,,,,
+Inequivalent Exchange,Pyreborne,Spell,Uncommon,1,No,,,,,
+Make It Rain,Pyreborne,Spell,Uncommon,1,No,,,,,
+Pay Off,Pyreborne,Spell,Uncommon,2,Yes,,,,,
+Dragons Breath,Pyreborne,Spell,Uncommon,3,No,,,,,
+Soldier Of Fortune,Pyreborne,Spell,Rare,0,Yes,,,,,
+Devilish Details,Pyreborne,Spell,Rare,1,Yes,,,,,
+Smelted Treasure,Pyreborne,Spell,Rare,1,No,,,,,
+Tome of Contracts,Pyreborne,Spell,Rare,1,Yes,,,,,
+Deathroar,Pyreborne,Spell,Rare,3,No,,,,,
+Superheated,Pyreborne,Spell,Rare,3,Yes,,,,,
+Pyreclasm,Pyreborne,Spell,Rare,4,No,,,,,
+Lava Armor,Pyreborne,Equipment,Common,1,,,,,10,
+Mind Cage,Pyreborne,Equipment,Uncommon,1,,,,4,4,
+Soulsmelter,Pyreborne,Equipment,Uncommon,3,,,,10,,
+Cursed Dragonstaff,Pyreborne,Equipment,Rare,2,,,,5,,
+Sacrificial Chamber,Pyreborne,Room,Uncommon,1,,,,,,
+Hellfurnace,Pyreborne,Room,Rare,1,,,,,,
+Witchweave,Luna Coven,Spell,Starter,0,,,,,,
+Moon Ritual,Luna Coven,Spell,Starter,0,,,,,,
+Meddler,Luna Coven,Unit,Common,1,,No,Yes,6,3,1
+Moon Pixie,Luna Coven,Unit,Common,1,,No,No,3,3,1
+Aurora Weaver,Luna Coven,Unit,Uncommon,1,,No,No,5,5,1
+Mooncaller,Luna Coven,Unit,Uncommon,1,,No,No,3,5,1
+Astrologer,Luna Coven,Unit,Uncommon,1,,Yes,No,5,10,2
+Lunar Priestess,Luna Coven,Unit,Uncommon,1,,Yes,No,8,8,1
+Nightingale,Luna Coven,Unit,Uncommon,1,,Yes,No,10,5,2
+Selene Acolyte,Luna Coven,Unit,Uncommon,2,,Yes,No,10,5,2
+Shadeguard,Luna Coven,Unit,Uncommon,2,,Yes,No,15,40,3
+Silent Sentinel,Luna Coven,Unit,Uncommon,2,,Yes,Yes,10,40,2
+Ethereal Seelie,Luna Coven,Unit,Rare,1,,Yes,No,5,5,1
+Moonguard,Luna Coven,Unit,Rare,2,,Yes,No,30,30,2
+Scrivener,Luna Coven,Unit,Rare,2,,Yes,Yes,15,8,1
+Bloody Moon,Luna Coven,Spell,Common,2,No,,,,,
+Celestial Storm,Luna Coven,Spell,Common,3,No,,,,,
+Faes Blessing,Luna Coven,Spell,Common,1,No,,,,,
+Gravity,Luna Coven,Spell,Common,1,No,,,,,
+Silver Strike,Luna Coven,Spell,Common,1,No,,,,,
+Starstruck,Luna Coven,Spell,Common,1,No,,,,,
+Cosmic Bolt,Luna Coven,Spell,Uncommon,2,No,,,,,
+Cover of Night,Luna Coven,Spell,Uncommon,1,Yes,,,,,
+Glittering Draught,Luna Coven,Spell,Uncommon,1,Yes,,,,,
+Hexcalation,Luna Coven,Spell,Uncommon,1,No,,,,,
+Lunacy,Luna Coven,Spell,Uncommon,99,No,,,,,
+Moonbeam,Luna Coven,Spell,Uncommon,99,No,,,,,
+Moonrise,Luna Coven,Spell,Uncommon,0,Yes,,,,,
+Covens Spike,Luna Coven,Spell,Rare,99,Yes,,,,,
+Duality,Luna Coven,Spell,Rare,1,No,,,,,
+Heavenfall,Luna Coven,Spell,Rare,4,No,,,,,
+Ritual Tome,Luna Coven,Spell,Rare,2,Yes,,,,,
+Silver Innk,Luna Coven,Spell,Rare,3,Yes,,,,,
+Stardust Invocation,Luna Coven,Spell,Rare,1,Yes,,,,,
+Tidal Turning,Luna Coven,Spell,Rare,3,Yes,,,,,
+Dusk Mantle,Luna Coven,Equipment,Rare,1,,,,,10,
+Luna Cyclestaff,Luna Coven,Equipment,Rare,1,,,,,,
+Moonlit Glaive,Luna Coven,Equipment,Uncommon,1,,,,5,,
+Eclipse Chamber,Luna Coven,Room,Uncommon,1,,,,,,
+Planetarium,Luna Coven,Room,Uncommon,1,,,,,,

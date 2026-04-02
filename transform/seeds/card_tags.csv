@@ -1,0 +1,41 @@
+card_name,clan,card_type,unit_affected
+Just Cause,Banished,Spell,one friendly
+Inspire,Banished,Spell,floor friendly  
+Upbeat Warbler,Banished,Unit,floor friendly  
+Lead Songbird,Banished,Unit,floor friendly  
+Punk Shredder,Banished,Unit,floor friendly  
+Avenger,Banished,Unit,
+Battle Dancer,Banished,Unit,
+Demonic Fledgling,Banished,Unit,
+Firebrand,Banished,Unit,
+Steadfast Crusader,Banished,Unit,
+Swordmaiden,Banished,Unit,
+Deathmetal Hymnist,Banished,Unit,floor friendly  
+Death's Dancer,Banished,Unit,
+Divine Dancer,Banished,Unit,
+Hostguard,Banished,Unit,
+Challenge,Banished,Spell,one unit
+Cleave,Banished,Spell,floor enemies
+Divinity,Banished,Spell,one unit
+Rising Rage,Banished,Spell,one unit
+Selfless Sacrifice,Banished,Spell,one unit
+Begone,Banished,Spell,front enemy
+Benediction,Banished,Spell,floor friendly  
+Deadly Plunge,Banished,Spell,front enemy
+Demonize,Banished,Spell,one unit
+Heroic Dive,Banished,Spell,"floor friendly, front enemy"
+Liquid Courage,Banished,Spell,one unit
+Eagleheart,Banished,Spell,"floor friendly, front enemy"
+Heavensward,Banished,Spell,floor friendly
+Sanctuary,Banished,Spell,floor friendly
+Spike of the Banished,Banished,Spell,one unit
+Tome of the Lost Path,Banished,Spell,one friendly
+Wynghs Radiance,Banished,Spell,one unit
+Penitents Bloodsuit,Banished,Equipment,one enemy
+Windblade,Banished,Equipment,one friendly
+Everlasting Light,Banished,Equipment,floor friendly
+Penitents Deathsuit,Banished,Equipment,one enemy
+Shield of Wyngh,Banished,Equipment,"one friendly, floor enemies"
+Cursed Twinblade,Banished,Equipment,one friendly
+Imprisoned Zephyr,Banished,Room,floor friendly
+Bloodsoaked Arena,Banished,Room,floor friendly
