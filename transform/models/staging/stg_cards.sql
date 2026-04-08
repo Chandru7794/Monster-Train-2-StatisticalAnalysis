@@ -4206,12 +4206,12 @@ unioned as (
     select
         run_id,
         'Spell'  as card_type,
-        'Cryptbuilder'          as card_name,
-        cast(floor(cast(spell_cryptbuilder as decimal)) as integer) as copies,
+        'Crypt Builder'          as card_name,
+        cast(floor(cast(spell_crypt_builder as decimal)) as integer) as copies,
         0                                                              as upgrades
     from source
-    where spell_cryptbuilder is not null
-      and cast(spell_cryptbuilder as decimal) > 0
+    where spell_crypt_builder is not null
+      and cast(spell_crypt_builder as decimal) > 0
 
     union all
 
@@ -4416,6 +4416,426 @@ unioned as (
     from source
     where unit_morselmaster is not null
       and cast(unit_morselmaster as decimal) > 0
+
+    union all
+
+    select
+        run_id,
+        'Equipment'  as card_type,
+        'Boilerplate'          as card_name,
+        cast(floor(cast(equipment_boilerplate as decimal)) as integer) as copies,
+        0                                                              as upgrades
+    from source
+    where equipment_boilerplate is not null
+      and cast(equipment_boilerplate as decimal) > 0
+
+    union all
+
+    select
+        run_id,
+        'Equipment'  as card_type,
+        'Gluttons Maw'          as card_name,
+        cast(floor(cast(equipment_gluttons_maw as decimal)) as integer) as copies,
+        0                                                              as upgrades
+    from source
+    where equipment_gluttons_maw is not null
+      and cast(equipment_gluttons_maw as decimal) > 0
+
+    union all
+
+    select
+        run_id,
+        'Room'  as card_type,
+        'Engine Upgrade'          as card_name,
+        cast(floor(cast(room_engine_upgrade as decimal)) as integer) as copies,
+        0                                                              as upgrades
+    from source
+    where room_engine_upgrade is not null
+      and cast(room_engine_upgrade as decimal) > 0
+
+    union all
+
+    select
+        run_id,
+        'Spell'  as card_type,
+        'A Fatal Melting'          as card_name,
+        cast(floor(cast(spell_a_fatal_melting as decimal)) as integer) as copies,
+        0                                                              as upgrades
+    from source
+    where spell_a_fatal_melting is not null
+      and cast(spell_a_fatal_melting as decimal) > 0
+
+    union all
+
+    select
+        run_id,
+        'Spell'  as card_type,
+        'Accelerated Incubation'          as card_name,
+        cast(floor(cast(spell_accelerated_incubation as decimal)) as integer) as copies,
+        0                                                              as upgrades
+    from source
+    where spell_accelerated_incubation is not null
+      and cast(spell_accelerated_incubation as decimal) > 0
+
+    union all
+
+    select
+        run_id,
+        'Spell'  as card_type,
+        'Broken Memories'          as card_name,
+        cast(floor(cast(spell_broken_memories as decimal)) as integer) as copies,
+        0                                                              as upgrades
+    from source
+    where spell_broken_memories is not null
+      and cast(spell_broken_memories as decimal) > 0
+
+    union all
+
+    select
+        run_id,
+        'Spell'  as card_type,
+        'Crypt Builder'          as card_name,
+        cast(floor(cast(spell_crypt_builder as decimal)) as integer) as copies,
+        0                                                              as upgrades
+    from source
+    where spell_crypt_builder is not null
+      and cast(spell_crypt_builder as decimal) > 0
+
+    union all
+
+    select
+        run_id,
+        'Spell'  as card_type,
+        'Frenzied Swarm'          as card_name,
+        cast(floor(cast(spell_frenzied_swarm as decimal)) as integer) as copies,
+        0                                                              as upgrades
+    from source
+    where spell_frenzied_swarm is not null
+      and cast(spell_frenzied_swarm as decimal) > 0
+
+    union all
+
+    select
+        run_id,
+        'Spell'  as card_type,
+        'Making Of A Morsel'          as card_name,
+        cast(floor(cast(spell_making_of_a_morsel as decimal)) as integer) as copies,
+        0                                                              as upgrades
+    from source
+    where spell_making_of_a_morsel is not null
+      and cast(spell_making_of_a_morsel as decimal) > 0
+
+    union all
+
+    select
+        run_id,
+        'Spell'  as card_type,
+        'Memento Mori'          as card_name,
+        cast(floor(cast(spell_memento_mori as decimal)) as integer) as copies,
+        0                                                              as upgrades
+    from source
+    where spell_memento_mori is not null
+      and cast(spell_memento_mori as decimal) > 0
+
+    union all
+
+    select
+        run_id,
+        'Spell'  as card_type,
+        'Plink'          as card_name,
+        cast(floor(cast(spell_plink as decimal)) as integer) as copies,
+        0                                                              as upgrades
+    from source
+    where spell_plink is not null
+      and cast(spell_plink as decimal) > 0
+
+    union all
+
+    select
+        run_id,
+        'Spell'  as card_type,
+        'Space Prism'          as card_name,
+        cast(floor(cast(spell_space_prism as decimal)) as integer) as copies,
+        0                                                              as upgrades
+    from source
+    where spell_space_prism is not null
+      and cast(spell_space_prism as decimal) > 0
+
+    union all
+
+    select
+        run_id,
+        'Spell'  as card_type,
+        'Umbra Stone'          as card_name,
+        cast(floor(cast(spell_umbra_stone as decimal)) as integer) as copies,
+        0                                                              as upgrades
+    from source
+    where spell_umbra_stone is not null
+      and cast(spell_umbra_stone as decimal) > 0
+
+    union all
+
+    select
+        run_id,
+        'Spell'  as card_type,
+        'Wurmkin Spike'          as card_name,
+        cast(floor(cast(spell_wurmkin_spike as decimal)) as integer) as copies,
+        0                                                              as upgrades
+    from source
+    where spell_wurmkin_spike is not null
+      and cast(spell_wurmkin_spike as decimal) > 0
+
+    union all
+
+    select
+        run_id,
+        'Unit'  as card_type,
+        'Bog Chrysalis'          as card_name,
+        cast(floor(cast(unit_bog_chrysalis as decimal)) as integer) as copies,
+        0                                                              as upgrades
+    from source
+    where unit_bog_chrysalis is not null
+      and cast(unit_bog_chrysalis as decimal) > 0
+
+    union all
+
+    select
+        run_id,
+        'Unit'  as card_type,
+        'Magma Morsel'          as card_name,
+        cast(floor(cast(unit_magma_morsel as decimal)) as integer) as copies,
+        0                                                              as upgrades
+    from source
+    where unit_magma_morsel is not null
+      and cast(unit_magma_morsel as decimal) > 0
+
+    union all
+
+    select
+        run_id,
+        'Unit'  as card_type,
+        'Morsel Made'          as card_name,
+        cast(floor(cast(unit_morsel_made as decimal)) as integer) as copies,
+        0                                                              as upgrades
+    from source
+    where unit_morsel_made is not null
+      and cast(unit_morsel_made as decimal) > 0
+
+    union all
+
+    select
+        run_id,
+        'Unit'  as card_type,
+        'Morsel Miner'          as card_name,
+        cast(floor(cast(unit_morsel_miner as decimal)) as integer) as copies,
+        0                                                              as upgrades
+    from source
+    where unit_morsel_miner is not null
+      and cast(unit_morsel_miner as decimal) > 0
+
+    union all
+
+    select
+        run_id,
+        'Unit'  as card_type,
+        'Nine Lived Nightmare'          as card_name,
+        cast(floor(cast(unit_nine_lived_nightmare as decimal)) as integer) as copies,
+        0                                                              as upgrades
+    from source
+    where unit_nine_lived_nightmare is not null
+      and cast(unit_nine_lived_nightmare as decimal) > 0
+
+    union all
+
+    select
+        run_id,
+        'Unit'  as card_type,
+        'Shardsoul Carver'          as card_name,
+        cast(floor(cast(unit_shardsoul_carver as decimal)) as integer) as copies,
+        0                                                              as upgrades
+    from source
+    where unit_shardsoul_carver is not null
+      and cast(unit_shardsoul_carver as decimal) > 0
+
+    union all
+
+    select
+        run_id,
+        'Unit'  as card_type,
+        'Wickless Baron'          as card_name,
+        cast(floor(cast(unit_wickless_baron as decimal)) as integer) as copies,
+        0                                                              as upgrades
+    from source
+    where unit_wickless_baron is not null
+      and cast(unit_wickless_baron as decimal) > 0
+
+    union all
+
+    select
+        run_id,
+        'Spell'  as card_type,
+        'Bonk'          as card_name,
+        cast(floor(cast(spell_bonk as decimal)) as integer) as copies,
+        0                                                              as upgrades
+    from source
+    where spell_bonk is not null
+      and cast(spell_bonk as decimal) > 0
+
+    union all
+
+    select
+        run_id,
+        'Spell'  as card_type,
+        'Smith'          as card_name,
+        cast(floor(cast(spell_smith as decimal)) as integer) as copies,
+        0                                                              as upgrades
+    from source
+    where spell_smith is not null
+      and cast(spell_smith as decimal) > 0
+
+    union all
+
+    select
+        run_id,
+        'Unit'  as card_type,
+        'Salvage Machine'          as card_name,
+        cast(floor(cast(unit_salvage_machine as decimal)) as integer) as copies,
+        0                                                              as upgrades
+    from source
+    where unit_salvage_machine is not null
+      and cast(unit_salvage_machine as decimal) > 0
+
+    union all
+
+    select
+        run_id,
+        'Unit'  as card_type,
+        'Steel Steward'          as card_name,
+        cast(floor(cast(unit_steel_steward as decimal)) as integer) as copies,
+        0                                                              as upgrades
+    from source
+    where unit_steel_steward is not null
+      and cast(unit_steel_steward as decimal) > 0
+
+    union all
+
+    select
+        run_id,
+        'Unit'  as card_type,
+        'Weldling'          as card_name,
+        cast(floor(cast(unit_weldling as decimal)) as integer) as copies,
+        0                                                              as upgrades
+    from source
+    where unit_weldling is not null
+      and cast(unit_weldling as decimal) > 0
+
+    union all
+
+    select
+        run_id,
+        'Spell'  as card_type,
+        'Ember Cache'          as card_name,
+        cast(floor(cast(spell_ember_cache as decimal)) as integer) as copies,
+        0                                                              as upgrades
+    from source
+    where spell_ember_cache is not null
+      and cast(spell_ember_cache as decimal) > 0
+
+    union all
+
+    select
+        run_id,
+        'Spell'  as card_type,
+        'Moonrise'          as card_name,
+        cast(floor(cast(spell_moonrise as decimal)) as integer) as copies,
+        0                                                              as upgrades
+    from source
+    where spell_moonrise is not null
+      and cast(spell_moonrise as decimal) > 0
+
+    union all
+
+    select
+        run_id,
+        'Spell'  as card_type,
+        'Shroud Spike'          as card_name,
+        cast(floor(cast(spell_shroud_spike as decimal)) as integer) as copies,
+        0                                                              as upgrades
+    from source
+    where spell_shroud_spike is not null
+      and cast(spell_shroud_spike as decimal) > 0
+
+    union all
+
+    select
+        run_id,
+        'Unit'  as card_type,
+        'Alloyed Construct'          as card_name,
+        cast(floor(cast(unit_alloyed_construct as decimal)) as integer) as copies,
+        0                                                              as upgrades
+    from source
+    where unit_alloyed_construct is not null
+      and cast(unit_alloyed_construct as decimal) > 0
+
+    union all
+
+    select
+        run_id,
+        'Unit'  as card_type,
+        'Overgorger'          as card_name,
+        cast(floor(cast(unit_overgorger as decimal)) as integer) as copies,
+        0                                                              as upgrades
+    from source
+    where unit_overgorger is not null
+      and cast(unit_overgorger as decimal) > 0
+
+    union all
+
+    select
+        run_id,
+        'Spell'  as card_type,
+        'Devlish Details'          as card_name,
+        cast(floor(cast(spell_devlish_details as decimal)) as integer) as copies,
+        0                                                              as upgrades
+    from source
+    where spell_devlish_details is not null
+      and cast(spell_devlish_details as decimal) > 0
+
+    union all
+
+    select
+        run_id,
+        'Spell'  as card_type,
+        'Foregone Power'          as card_name,
+        cast(floor(cast(spell_foregone_power as decimal)) as integer) as copies,
+        0                                                              as upgrades
+    from source
+    where spell_foregone_power is not null
+      and cast(spell_foregone_power as decimal) > 0
+
+    union all
+
+    select
+        run_id,
+        'Spell'  as card_type,
+        'Offering Token'          as card_name,
+        cast(floor(cast(spell_offering_token as decimal)) as integer) as copies,
+        0                                                              as upgrades
+    from source
+    where spell_offering_token is not null
+      and cast(spell_offering_token as decimal) > 0
+
+    union all
+
+    select
+        run_id,
+        'Spell'  as card_type,
+        'Titanstooth'          as card_name,
+        cast(floor(cast(spell_titanstooth as decimal)) as integer) as copies,
+        0                                                              as upgrades
+    from source
+    where spell_titanstooth is not null
+      and cast(spell_titanstooth as decimal) > 0
 
 )
 

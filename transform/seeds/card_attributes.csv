@@ -119,3 +119,123 @@ Luna Cyclestaff,Luna Coven,Equipment,Rare,1,,,,,,
 Moonlit Glaive,Luna Coven,Equipment,Uncommon,1,,,,5,,
 Eclipse Chamber,Luna Coven,Room,Uncommon,1,,,,,,
 Planetarium,Luna Coven,Room,Uncommon,1,,,,,,
+Eager Conscript,Underlegion,Spell,Starter,1,No,,,,,
+Sporetouch,Underlegion,Spell,Starter,1,No,,,,,
+Green Recruit,Underlegion,Unit,Common,0,,No,No,5,5,1
+Cheery Deathcap,Underlegion,Unit,Uncommon,1,,No,No,5,3,1
+Truffles,Underlegion,Unit,Uncommon,1,,No,Yes,5,5,1
+Waxcap,Underlegion,Unit,Uncommon,1,,No,No,5,5,1
+Amorous Enoki,Underlegion,Unit,Uncommon,1,,Yes,No,10,10,2
+Cluster Colonel,Underlegion,Unit,Uncommon,2,,Yes,No,10,5,2
+Morel Mistress,Underlegion,Unit,Uncommon,1,,Yes,No,15,15,2
+Prickly Puffball,Underlegion,Unit,Uncommon,1,,Yes,No,0,35,2
+Spore Launcher,Underlegion,Unit,Uncommon,2,,Yes,No,30,30,3
+Squad Leader,Underlegion,Unit,Uncommon,1,,Yes,No,10,10,1
+Balmabello,Underlegion,Unit,Rare,3,,Yes,No,15,50,2
+Deathcapped Prophet,Underlegion,Unit,Rare,1,,Yes,No,3,8,1
+Enchantrelle,Underlegion,Unit,Rare,3,,Yes,No,8,8,2
+Glow Up,Underlegion,Spell,Common,1,No,,,,,
+Gooey Flask,Underlegion,Spell,Common,1,Yes,,,,,
+Proliferate,Underlegion,Spell,Common,1,Yes,,,,,
+Spawning Pods,Underlegion,Spell,Common,2,Yes,,,,,
+Rot,Underlegion,Spell,Common,3,No,,,,,
+Dig Deep,Underlegion,Spell,Uncommon,2,No,,,,,
+Fertile Ground,Underlegion,Spell,Uncommon,2,Yes,,,,,
+Inhale,Underlegion,Spell,Uncommon,1,No,,,,,
+Mulch,Underlegion,Spell,Uncommon,0,Yes,,,,,
+Mushroom Cloud,Underlegion,Spell,Uncommon,1,Yes,,,,,
+Pandemic,Underlegion,Spell,Uncommon,2,Yes,,,,,
+Pox,Underlegion,Spell,Uncommon,2,Yes,,,,,
+Contagious,Underlegion,Spell,Rare,2,Yes,,,,,
+Deadly Variant,Underlegion,Spell,Rare,2,Yes,,,,,
+Funguy in a Suit,Underlegion,Spell,Rare,3,Yes,,,,,
+Spike of the Legion,Underlegion,Spell,Rare,99,Yes,,,,,
+The Great Decay,Underlegion,Spell,Rare,2,Yes,,,,,
+Tome of Evergrowth,Underlegion,Spell,Rare,1,Yes,,,,,
+Unearth Treasure,Underlegion,Spell,Rare,1,Yes,,,,,
+Wracking Pain,Underlegion,Spell,Rare,1,No,,,,,
+Loamcoat,Underlegion,Equipment,Common,2,,,,,20,
+Mitosis Cap,Underlegion,Equipment,Rare,0,,,,,15,
+Grow Room,Underlegion,Room,Uncommon,1,,,,,,
+Infectory,Underlegion,Room,Common,1,,,,,,
+Mushy Room,Underlegion,Room,Uncommon,1,,,,,,
+Secret Ingredient,Lazarus League,Spell,Starter,1,No,,,,,
+Erratic Assistant,Lazarus League,Unit,Starter,0,,No,No,9,1,1
+Overworked Assistant,Lazarus League,Unit,Common,0,,No,No,3,9,1
+Sanguine Assistant,Lazarus League,Unit,Common,1,,No,No,15,1,1
+Twisted Assistant,Lazarus League,Unit,Common,1,,No,No,15,1,1
+Pufferflesh,Lazarus League,Unit,Uncommon,1,,No,No,0,11,1
+Hulking Mass,Lazarus League,Unit,Uncommon,2,,Yes,No,15,20,3
+Makeshift Golem,Lazarus League,Unit,Uncommon,1,,Yes,No,12,12,2
+Meathook,Lazarus League,Unit,Uncommon,1,,Yes,Yes,25,15,2
+Pincushion,Lazarus League,Unit,Uncommon,1,,Yes,No,12,12,2
+Plague Doctor,Lazarus League,Unit,Uncommon,2,,Yes,No,9,9,1
+Test Subject Alpha,Lazarus League,Unit,Uncommon,2,,Yes,No,5,10,3
+Double Edged Bearer,Lazarus League,Unit,Rare,1,,No,No,10,1,1
+Hydra Armed Horror,Lazarus League,Unit,Rare,2,,Yes,No,15,15,2
+Nine Lived Nightmare,Lazarus League,Unit,Rare,2,,Yes,No,1,1,1
+Reforming Ooze,Lazarus League,Unit,Rare,1,,Yes,No,7,15,2
+Explosive Reaction,Lazarus League,Spell,Common,2,No,,,,,
+Forevermore Serum,Lazarus League,Spell,Common,1,Yes,,,,,
+Its Alive,Lazarus League,Spell,Common,1,No,,,,,
+Pseudoscience,Lazarus League,Spell,Common,1,No,,,,,
+Acid Shower,Lazarus League,Spell,Uncommon,1,No,,,,,
+Faulty Body,Lazarus League,Spell,Uncommon,1,Yes,,,,,
+Horrify,Lazarus League,Spell,Uncommon,1,No,,,,,
+Insatiable Hunger,Lazarus League,Spell,Uncommon,1,No,,,,,
+Mixology,Lazarus League,Spell,Uncommon,2,No,,,,,
+Risky Operation,Lazarus League,Spell,Uncommon,1,No,,,,,
+Replicator Ray,Lazarus League,Spell,Uncommon,3,Yes,,,,,
+Surgical Strike,Lazarus League,Spell,Uncommon,1,No,,,,,
+Weaponized Prosthetic,Lazarus League,Spell,Uncommon,1,No,,,,,
+Brain Transfer,Lazarus League,Spell,Rare,2,No,,,,,
+Minds of Their Own,Lazarus League,Spell,Rare,3,No,,,,,
+Mix a Lot,Lazarus League,Spell,Rare,3,No,,,,,
+Scrap For Parts,Lazarus League,Spell,Rare,1,Yes,,,,,
+Spike of the League,Lazarus League,Spell,Rare,99,Yes,,,,,
+Tome of Horrors,Lazarus League,Spell,Rare,3,Yes,,,,,
+Combustion Suit,Lazarus League,Equipment,Rare,1,,,,10,10,
+Organ Harvester,Lazarus League,Equipment,Uncommon,2,,,,10,,
+Potion Kit,Lazarus League,Equipment,Common,1,,,,8,4,
+Electricity Chamber,Lazarus League,Room,Rare,1,,,,,,
+Reanimation Lab,Lazarus League,Room,Uncommon,1,,,,,,
+Torch,Hellhorned,Spell,Starter,1,No,,,,,
+Queens Impling,Hellhorned,Unit,Starter,1,,No,No,1,1,1
+Fledgling Imp,Hellhorned,Unit,Common,1,,No,No,1,1,1
+Molting Imp,Hellhorned,Unit,Common,1,,No,No,1,1,1
+Welder Helper,Hellhorned,Unit,Common,1,,No,No,1,1,1
+Impish Scholar,Hellhorned,Unit,Uncommon,1,,No,No,1,1,1
+Pyre Chomper,Hellhorned,Unit,Uncommon,1,,No,No,1,1,1
+Alpha Fiend,Hellhorned,Unit ,Uncommon,2,,Yes,No,10,25,3
+Branded Warrior,Hellhorned,Unit ,Uncommon,1,,Yes,No,20,8,2
+Demon Fiend,Hellhorned,Unit ,Uncommon,4,,Yes,No,60,60,3
+Horned Warrior,Hellhorned,Unit ,Uncommon,1,,Yes,No,15,8,2
+Railbeater,Hellhorned,Unit ,Uncommon,1,,Yes,No,10,10,2
+Steelworker,Hellhorned,Unit ,Uncommon,1,,Yes,No,10,15,2
+Transcendimp,Hellhorned,Unit ,Rare,2,,No,No,1,1,1
+Apex Imp,Hellhorned,Unit ,Rare,1,,Yes,No,10,10,2
+Consumer of Crowns,Hellhorned,Unit ,Rare,4,,Yes,Yes,100,40,3
+Deranged Brute,Hellhorned,Unit ,Rare,1,,Yes,No,10,25,2
+Vent,Hellhorned,Spell,Common,99,No,,,,,
+Hidden Passage,Hellhorned,Spell,Common,1,No,,,,,
+Horn Break,Hellhorned,Spell,Common,1,No,,,,,
+Ritual of Battle,Hellhorned,Spell,Common,3,No,,,,,
+Imp in a Box,Hellhorned,Spell,Uncommon,0,Yes,,,,,
+Imp Portant Work,Hellhorned,Spell,Uncommon,0,No,,,,,
+Rage Serum,Hellhorned,Spell,Uncommon,0,Yes,,,,,
+Imp Pressive,Hellhorned,Spell,Uncommon,1,No,,,,,
+March of Shields,Hellhorned,Spell,Uncommon,1,No,,,,,
+Branding Rite,Hellhorned,Spell,Uncommon,2,No,,,,,
+Enflame,Hellhorned,Spell,Uncommon,2,No,,,,,
+Tiresome Climb,Hellhorned,Spell,Uncommon,2,No,,,,,
+Battering Ram,Hellhorned,Spell,Uncommon,3,No,,,,,
+Inferno,Hellhorned,Spell,Uncommon,3,No,,,,,
+Spike of the Hellhorned,Hellhorned,Spell,Rare,99,Yes,,,,,
+Dark Deal,Hellhorned,Spell,Rare,0,No,,,,,
+Alloy of the Ancients,Hellhorned,Spell,Rare,1,Yes,,,,,
+Imp Olate,Hellhorned,Spell,Rare,1,No,,,,,
+Last Stand,Hellhorned,Spell,Rare,3,Yes,,,,,
+Reinforce,Hellhorned,Spell,Rare,3,Yes,,,,,
+Onehorns Tome,Hellhorned,Spell,Rare,4,Yes,,,,,
+Fortified Pauldrons,Hellhorned,Equipment,Common,0,,,,,,
+Rage Room,Hellhorned,Room,Rare,1,,,,,,

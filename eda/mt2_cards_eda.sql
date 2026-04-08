@@ -246,3 +246,15 @@ SELECT * FROM run_cards LIMIT 2;
 
 
 SELECT cost, card_type, COUNT(*) FROM mt2.card_attributes GROUP BY cost, card_type ORDER BY cost, card_type;
+
+
+-----i want to just check card breakdowns because i have banished, pyreborne, and luna coven all done
+
+CREATE TABLE complete_cards AS
+SELECT * FROM mt2.main.dim_cards
+WHERE clan IN ('Banished', 'Pyreborne', 'Luna Coven');
+
+
+SELECT clan, card_type, COUNT(*) FROM complete_cards
+GROUP BY clan, card_type
+ORDER BY card_type, clan;

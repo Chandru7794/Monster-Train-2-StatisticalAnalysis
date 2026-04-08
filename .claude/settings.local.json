@@ -23,7 +23,8 @@
     ],
     "additionalDirectories": [
       "C:\\Users\\chand\\.dbt",
-      "c:\\Machine Learning Projects\\Monster Train\\scripts"
+      "c:\\Machine Learning Projects\\Monster Train\\scripts",
+      "c:\\Machine Learning Projects\\Monster Train\\.claude"
     ]
   }
 }

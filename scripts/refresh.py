@@ -8,7 +8,6 @@ Run manually:
 
 import re
 import subprocess
-import sys
 from pathlib import Path
 
 import pandas as pd
@@ -115,7 +114,7 @@ def check_new_cards():
     insert_marker = "\n)\n\nselect"
     if insert_marker not in sql_text:
         print("      ERROR: Could not locate insert point in stg_cards.sql. Manual update required.")
-        sys.exit(1)
+        return
 
     patched = sql_text.replace(insert_marker, "".join(new_blocks) + insert_marker, 1)
     STG_CARDS.write_text(patched, encoding="utf-8")
@@ -127,9 +126,26 @@ def dbt_build():
     print("\n[3/4] Running dbt build...")
     result = subprocess.run(["dbt", "build"], cwd=DBT_DIR)
     if result.returncode != 0:
-        print("      ERROR: dbt build failed. Win/Loss stats skipped.")
-        sys.exit(1)
+        print("      ERROR: dbt build failed. Continuing to next step.")
+        return
     print("      dbt build complete.")
+
+
+# ── Clan ordering (canonical display order per CLAUDE.md) ─────────────────────
+CLAN_ORDER = [
+    "Banished",
+    "Pyreborne",
+    "Luna Coven",
+    "Underlegion",
+    "Lazarus League",
+    "Hellhorned",
+    "Awoken",
+    "Stygian Guard",
+    "Umbra",
+    "Melting Remnant",
+    "Wurmkin",
+    "Railforged",
+]
 
 
 # ── 4. Win/Loss statistics ────────────────────────────────────────────────────
@@ -140,14 +156,21 @@ def win_loss_stats():
     df = df[df["result"].isin(["Victory", "Loss"])].copy()
     df["win"] = df["result"] == "Victory"
 
-    def table(group_col, data):
+    def table(group_col, data, clan_ordered=False):
         stats = (
             data.groupby(group_col)["win"]
             .agg(Wins="sum", Total="count")
             .assign(Losses=lambda x: x["Total"] - x["Wins"])
         )
         stats["Win%"] = (stats["Wins"] / stats["Total"] * 100).round(1)
-        return stats[["Wins", "Losses", "Total", "Win%"]].sort_values("Win%", ascending=False)
+        stats = stats[["Wins", "Losses", "Total", "Win%"]]
+        if clan_ordered:
+            ordered = [c for c in CLAN_ORDER if c in stats.index]
+            remainder = [c for c in stats.index if c not in CLAN_ORDER]
+            stats = stats.loc[ordered + remainder]
+        else:
+            stats = stats.sort_values("Win%", ascending=False)
+        return stats
 
     combined = pd.concat([
         df[["primary_clan", "win"]].rename(columns={"primary_clan": "clan"}),
@@ -155,26 +178,24 @@ def win_loss_stats():
     ]).dropna(subset=["clan"])
 
     sections = [
-        ("WIN/LOSS BY CLAN (PRIMARY OR SECONDARY)", "clan",           combined),
-        ("WIN/LOSS BY PRIMARY CLAN",                "primary_clan",   df),
-        ("WIN/LOSS BY SECONDARY CLAN",              "secondary_clan", df),
-        ("WIN/LOSS BY HERO",                        "hero",           df),
-        ("WIN/LOSS BY COVENANT RANK",               "covenant_rank",  df),
-        ("WIN/LOSS BY PYRE HEART",                  "pyre_heart",     df),
+        ("WIN/LOSS BY CLAN (PRIMARY OR SECONDARY)", "clan",           combined,  True),
+        ("WIN/LOSS BY PRIMARY CLAN",                "primary_clan",   df,        True),
+        ("WIN/LOSS BY SECONDARY CLAN",              "secondary_clan", df,        True),
+        ("WIN/LOSS BY HERO",                        "hero",           df,        False),
+        ("WIN/LOSS BY COVENANT RANK",               "covenant_rank",  df,        False),
+        ("WIN/LOSS BY PYRE HEART",                  "pyre_heart",     df,        False),
     ]
 
-    for title, col, data in sections:
+    for title, col, data, clan_ordered in sections:
         print("\n" + "=" * 50)
         print(title)
         print("=" * 50)
-        print(table(col, data).to_string())
+        print(table(col, data, clan_ordered=clan_ordered).to_string())
 
 
 # ── Main ──────────────────────────────────────────────────────────────────────
 def pipeline():
-    has_new_runs = excel_to_csv()
-    if not has_new_runs:
-        return
+    excel_to_csv()
     check_new_cards()
     dbt_build()
     win_loss_stats()
